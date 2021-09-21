@@ -112,3 +112,6 @@ try:
     )
 except ImportError:
     logger.info("Using default Docker config...")
+
+
+PREVENT_UNSAFE_DB_CONNECTIONS = False
